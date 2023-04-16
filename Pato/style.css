@@ -1,0 +1,146 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, h3, p, ul, li, form, label, input {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style de base pour la page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  
+  /* En-tête de la page */
+  header {
+    background-color: #fd0101;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between 500px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between 500px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Contenu de la page */
+  main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    font-size: 18px;
+  }
+  
+  #nouveauxTweets {
+    margin-top: 100px;
+  }
+  
+  #connexion {
+  }
+/* Style pour les sections */
+section.categorie h2 {
+    display: none;
+  }
+    
+ /* Style pour la section d'affichage de l'image ajoutée */
+#imageAjoutee {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  #imageAjoutee img {
+    max-width: 100%;
+  }
+/* Style pour le conteneur des catégories */
+.categorie-container {
+    text-align: right;
+  }
+  
+  /* Style pour les sections */
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Style pour les boutons */
+  .btnCategorie {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style pour les boutons au survol */
+  .btnCategorie:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between 50px;
+  }
+
+  /* Style pour les boutons */
+.button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Style pour les images */
+.image {
+  max-width: 100%;
+  display: none;
+}
+
+
+/* Style pour les boutons */
+.button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Style pour les boutons au survol */
+.button:hover {
+    background-color: #0056b3;
+}

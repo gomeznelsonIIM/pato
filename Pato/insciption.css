@@ -1,0 +1,41 @@
+/* style.css */
+body {
+    background-color: #f1f1f1; /* Couleur de fond de la page */
+    font-family: Arial, sans-serif; /* Police de caractères */
+  }
+  
+  form {
+    width: 300px; /* Largeur du formulaire */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    background-color: #ffffff; /* Couleur de fond du formulaire */
+    padding: 20px; /* Espacement interne du formulaire */
+    border-radius: 5px; /* Arrondi des coins du formulaire */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Ombre du formulaire */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%; /* Largeur des champs de saisie et du bouton */
+    padding: 10px; /* Espacement interne des champs de saisie et du bouton */
+    margin-bottom: 10px; /* Espacement vertical entre les champs de saisie et le bouton */
+    border: none; /* Suppression des bordures par défaut */
+    border-radius: 3px; /* Arrondi des coins des champs de saisie et du bouton */
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: #ffffff; /* Couleur du texte du bouton */
+    font-weight: bold; /* Gras du texte du bouton */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+    cursor: pointer; /* Curseur en forme de main au survol du bouton */
+  }
+  
+  .error {
+    color: red; /* Couleur du texte d'erreur */
+  }
+  
